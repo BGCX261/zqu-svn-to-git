@@ -1,0 +1,116 @@
+body {
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	font-size: 16px;
+	font-weight:bolder;
+	color: #adc9d9;
+}
+#top {
+	/*margin-top:100px;*/
+	/*margin-left:200px; */
+	/*margin-right:200px; */
+	margin-bottom:0px;
+	height:180px;
+	width:512px;
+	background:url(../images/login/login_041.jpg) repeat center;
+	margin-left:50%;
+	margin-top:25%; 
+}
+#center {
+	height:84px;
+	text-align:center;
+}
+#center_left {
+	/*margin-left:200px;*/
+	background:url(../images/login/login_bg.jpg) repeat;
+	height:110px;
+	width:512px;
+	margin-left:50%; 
+}
+/* IE7 HACK*/
+*+html #center_left {
+	/*margin-left:206px !important;*/
+	margin-left:50%; 
+}
+/* END HACK*/
+#center_middle 
+{
+	/*margin-left:200px;*/
+	margin-top:0px;
+	background:url(../images/login/login_bg.jpg) repeat-x;
+	height:35px;
+	width:512px;
+	text-align:center;
+	margin-left:50%; 
+}
+#center_middle_right {
+	float:left;
+	background:url(../images/login/login_08.gif) no-repeat;
+	height:84px;
+	width:26px;
+}
+#center_submit {
+	/*float:left;*/
+	background:url(../images/login/login_09.gif) no-repeat;
+	height:84px;
+	width:67px;
+}
+#center_right {
+	float:left;
+	background:url(../images/login/login_10.gif) no-repeat;
+	height:84px;
+	width:211px;
+}
+#footer {
+    /*margin-left:200px;*/
+	background:url(../images/login/login_bg.jpg) repeat-x;
+	height:20px;
+	width:512px;
+	margin-left:50%;
+}
+INPUT {
+	width:140px;
+	height:20px;
+	background-color:#87adbf;
+	border:solid 1px #153966;
+	font-size:12px;
+	color:#283439;
+}
+
+.user {
+	margin-left: 150px;
+	height:35px;
+}
+/* IE7 HACK*/
+*+html .user {
+	/*margin: 4px auto;*/
+	margin-left:50%; 
+	margin-top:50%;
+}
+/* END HACK*/
+.chknumber 
+{
+	margin-left:150px;
+	margin-bottom:3px;
+}
+.dropdownlist
+{
+ 	width:143px;
+	height:23px;
+	background-color:#87adbf;
+
+	font-size:14px;
+	color:#283439;
+	}
+.button {
+	margin: 15px auto;
+}
+IMG {
+	border:none;
+	cursor:pointer;
+}
+FORM {
+	margin:0;
+	padding:0
+}

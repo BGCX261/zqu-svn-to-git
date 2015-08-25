@@ -1,0 +1,9 @@
+E:\wwwroot\My\ZQUSciResearch\ZQUSciResearchMS\DAL\bin\Debug\DAL.dll
+E:\wwwroot\My\ZQUSciResearch\ZQUSciResearchMS\DAL\bin\Debug\DAL.pdb
+E:\wwwroot\My\ZQUSciResearch\ZQUSciResearchMS\DAL\bin\Debug\DBUtility.dll
+E:\wwwroot\My\ZQUSciResearch\ZQUSciResearchMS\DAL\bin\Debug\Model.dll
+E:\wwwroot\My\ZQUSciResearch\ZQUSciResearchMS\DAL\bin\Debug\Model.pdb
+E:\wwwroot\My\ZQUSciResearch\ZQUSciResearchMS\DAL\bin\Debug\DBUtility.pdb
+E:\wwwroot\My\ZQUSciResearch\ZQUSciResearchMS\DAL\obj\Debug\ResolveAssemblyReference.cache
+E:\wwwroot\My\ZQUSciResearch\ZQUSciResearchMS\DAL\obj\Debug\DAL.dll
+E:\wwwroot\My\ZQUSciResearch\ZQUSciResearchMS\DAL\obj\Debug\DAL.pdb

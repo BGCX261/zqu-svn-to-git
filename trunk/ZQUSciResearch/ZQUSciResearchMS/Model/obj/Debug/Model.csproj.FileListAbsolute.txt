@@ -1,0 +1,5 @@
+E:\wwwroot\My\ZQUSciResearch\ZQUSciResearchMS\Model\bin\Debug\Model.dll
+E:\wwwroot\My\ZQUSciResearch\ZQUSciResearchMS\Model\bin\Debug\Model.pdb
+E:\wwwroot\My\ZQUSciResearch\ZQUSciResearchMS\Model\obj\Debug\ResolveAssemblyReference.cache
+E:\wwwroot\My\ZQUSciResearch\ZQUSciResearchMS\Model\obj\Debug\Model.dll
+E:\wwwroot\My\ZQUSciResearch\ZQUSciResearchMS\Model\obj\Debug\Model.pdb

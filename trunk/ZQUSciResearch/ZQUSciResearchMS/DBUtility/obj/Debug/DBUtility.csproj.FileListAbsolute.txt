@@ -1,0 +1,5 @@
+E:\wwwroot\My\ZQUSciResearch\ZQUSciResearchMS\DBUtility\bin\Debug\DBUtility.dll
+E:\wwwroot\My\ZQUSciResearch\ZQUSciResearchMS\DBUtility\bin\Debug\DBUtility.pdb
+E:\wwwroot\My\ZQUSciResearch\ZQUSciResearchMS\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+E:\wwwroot\My\ZQUSciResearch\ZQUSciResearchMS\DBUtility\obj\Debug\DBUtility.dll
+E:\wwwroot\My\ZQUSciResearch\ZQUSciResearchMS\DBUtility\obj\Debug\DBUtility.pdb

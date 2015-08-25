@@ -1,0 +1,10 @@
+		
+			用户名		密码
+
+	超级管理员：	admin		admin
+
+	系统管理员：	keyuan		keyuan
+
+	管理员：	jiaoshi		jiaoshi
+
+	管理员：	fung		123

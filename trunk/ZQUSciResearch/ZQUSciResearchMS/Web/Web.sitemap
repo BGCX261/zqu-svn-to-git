@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title="评定标准"  description="">
+        <siteMapNode url="~/KaoHe/LunWen_Evaluate.aspx" title="学术论文"  description="" />
+        <siteMapNode url="~/KaoHe/Evaluate.aspx" title="学术著作与教材"  description="" />
+		<siteMapNode url="~/KaoHe/JianDing_Evaluate.aspx" title="鉴定成果与专利成果"  description="" />
+		<siteMapNode url="~/KaoHe/RuanKe_Evaluate.aspx" title="软科学成果与科技应用"  description="" />
+		<siteMapNode url="~/KaoHe/HuoJiang_Evaluate.aspx" title="获奖成果"  description="" />
+		<siteMapNode url="~/KaoHe/KeYan_Evaluate.aspx" title="科研项目"  description="" />
+		<siteMapNode url="~/KaoHe/ShenBao_Evaluate.aspx" title="科研项目申报"  description="" />
+		<siteMapNode url="~/KaoHe/JiaoYan_Evaluate.aspx" title="教研教改项目"  description="" />
+		<siteMapNode url="~/KaoHe/ChuangZuo_Evaluate.aspx" title="创作类"  description="" />
+    </siteMapNode>
+</siteMap>

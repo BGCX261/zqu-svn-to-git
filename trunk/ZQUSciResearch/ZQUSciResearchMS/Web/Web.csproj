@@ -1,0 +1,526 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9EB73E3A-B766-4D0C-AC2C-8C22F01CA006}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Web</RootNamespace>
+    <AssemblyName>Web</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.0.20229.1279, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="bin\BLL.dll" />
+    <Content Include="bin\BLL.pdb" />
+    <Content Include="bin\DAL.dll" />
+    <Content Include="bin\DAL.pdb" />
+    <Content Include="bin\DBUtility.dll" />
+    <Content Include="bin\DBUtility.pdb" />
+    <Content Include="bin\LTP.Common.dll" />
+    <Content Include="bin\Model.dll" />
+    <Content Include="bin\Model.pdb" />
+    <Content Include="Chief.aspx" />
+    <Content Include="Cleft.aspx" />
+    <Content Include="css\login.css" />
+    <Content Include="css\Stylesheet1.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="down.aspx" />
+    <Content Include="GeRenXinXi.aspx" />
+    <Content Include="images\Default\add.gif" />
+    <Content Include="images\Default\del.gif" />
+    <Content Include="images\Default\edit.gif" />
+    <Content Include="images\Default\main_01.gif" />
+    <Content Include="images\Default\main_03.gif" />
+    <Content Include="images\Default\main_05.gif" />
+    <Content Include="images\Default\main_06.gif" />
+    <Content Include="images\Default\main_07.gif" />
+    <Content Include="images\Default\main_10.gif" />
+    <Content Include="images\Default\main_11.gif" />
+    <Content Include="images\Default\main_13.gif" />
+    <Content Include="images\Default\main_15.gif" />
+    <Content Include="images\Default\main_17.gif" />
+    <Content Include="images\Default\main_19.gif" />
+    <Content Include="images\Default\main_21.gif" />
+    <Content Include="images\Default\main_28.gif" />
+    <Content Include="images\Default\main_29.gif" />
+    <Content Include="images\Default\main_30.gif" />
+    <Content Include="images\Default\main_31.gif" />
+    <Content Include="images\Default\main_32.gif" />
+    <Content Include="images\Default\main_34.gif" />
+    <Content Include="images\Default\main_35.gif" />
+    <Content Include="images\Default\main_43.gif" />
+    <Content Include="images\Default\main_69.gif" />
+    <Content Include="images\Default\main_71.gif" />
+    <Content Include="images\Default\main_72.gif" />
+    <Content Include="images\Default\main_74.gif" />
+    <Content Include="images\Default\pass.gif" />
+    <Content Include="images\Default\quit.gif" />
+    <Content Include="images\Default\sj.gif" />
+    <Content Include="images\Default\tab_bg.gif" />
+    <Content Include="images\Default\tb.gif" />
+    <Content Include="images\Default\user.gif" />
+    <Content Include="images\delete.gif" />
+    <Content Include="images\login\cz.gif" />
+    <Content Include="images\login\dl.gif" />
+    <Content Include="images\login\login.jpg" />
+    <Content Include="images\login\login_03.gif" />
+    <Content Include="images\login\login_04.gif" />
+    <Content Include="images\login\login_04.jpg" />
+    <Content Include="images\login\login_041.jpg" />
+    <Content Include="images\login\login_06.gif" />
+    <Content Include="images\login\login_07.gif" />
+    <Content Include="images\login\login_08.gif" />
+    <Content Include="images\login\login_09.gif" />
+    <Content Include="images\login\login_10.gif" />
+    <Content Include="images\login\login_11.gif" />
+    <Content Include="images\login\login_bg.jpg" />
+    <Content Include="images\menubg1.jpg" />
+    <Content Include="images\menubg2.jpg" />
+    <Content Include="images\rank\0.gif" />
+    <Content Include="images\rank\1.gif" />
+    <Content Include="images\rank\2.gif" />
+    <Content Include="images\rank\3.gif" />
+    <Content Include="images\rank\4.gif" />
+    <Content Include="images\rank\5.gif" />
+    <Content Include="images\rank\6.gif" />
+    <Content Include="images\rank\7.gif" />
+    <Content Include="images\rank\8.gif" />
+    <Content Include="images\rank\9.gif" />
+    <Content Include="js\chili-1.7.pack.js" />
+    <Content Include="js\jquery-1.4.2.js" />
+    <Content Include="js\jquery-1.4.4.min.js" />
+    <Content Include="js\jquery.accordion.js" />
+    <Content Include="js\jquery.dimensions.js" />
+    <Content Include="js\jquery.easing.js" />
+    <Content Include="KaoHe\ChuangZuo_Evaluate.aspx" />
+    <Content Include="KaoHe\Evaluate.aspx" />
+    <Content Include="KaoHe\Evaluate_Add.aspx" />
+    <Content Include="KaoHe\HuoJiang_Evaluate.aspx" />
+    <Content Include="KaoHe\JianDing_Evaluate.aspx" />
+    <Content Include="KaoHe\JiaoYan_Evaluate.aspx" />
+    <Content Include="KaoHe\KeYan_Evaluate.aspx" />
+    <Content Include="KaoHe\LunWen_Evaluate.aspx" />
+    <Content Include="KaoHe\menu.ascx" />
+    <Content Include="KaoHe\RuanKe_Evaluate.aspx" />
+    <Content Include="KaoHe\ShenBao_Evaluate.aspx" />
+    <Content Include="KeYuan.aspx" />
+    <Content Include="Kleft.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="right.aspx" />
+    <Content Include="SciResearch\Thesis_Add.aspx" />
+    <Content Include="Secretary.aspx" />
+    <Content Include="Sleft.aspx" />
+    <Content Include="Teacher.aspx" />
+    <Content Include="Tleft.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="YongHuGuanLi\ChaKanXinXi.aspx" />
+    <Content Include="YongHuGuanLi\ChangePassword.aspx" />
+    <Content Include="YongHuGuanLi\WanShanXinXi.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Chief.aspx.cs">
+      <DependentUpon>Chief.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cleft.aspx.cs">
+      <DependentUpon>Cleft.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="down.aspx.cs">
+      <DependentUpon>down.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GeRenXinXi.aspx.cs">
+      <DependentUpon>GeRenXinXi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GeRenXinXi.aspx.designer.cs">
+      <DependentUpon>GeRenXinXi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KaoHe\ChuangZuo_Evaluate.aspx.cs">
+      <DependentUpon>ChuangZuo_Evaluate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KaoHe\ChuangZuo_Evaluate.aspx.designer.cs">
+      <DependentUpon>ChuangZuo_Evaluate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KaoHe\Evaluate.aspx.cs">
+      <DependentUpon>Evaluate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KaoHe\Evaluate.aspx.designer.cs">
+      <DependentUpon>Evaluate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KaoHe\Evaluate_Add.aspx.cs">
+      <DependentUpon>Evaluate_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KaoHe\Evaluate_Add.aspx.designer.cs">
+      <DependentUpon>Evaluate_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KaoHe\HuoJiang_Evaluate.aspx.cs">
+      <DependentUpon>HuoJiang_Evaluate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KaoHe\HuoJiang_Evaluate.aspx.designer.cs">
+      <DependentUpon>HuoJiang_Evaluate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KaoHe\JianDing_Evaluate.aspx.cs">
+      <DependentUpon>JianDing_Evaluate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KaoHe\JianDing_Evaluate.aspx.designer.cs">
+      <DependentUpon>JianDing_Evaluate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KaoHe\JiaoYan_Evaluate.aspx.cs">
+      <DependentUpon>JiaoYan_Evaluate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KaoHe\JiaoYan_Evaluate.aspx.designer.cs">
+      <DependentUpon>JiaoYan_Evaluate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KaoHe\JiFen.aspx.cs">
+      <DependentUpon>JiFen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KaoHe\JiFen.aspx.designer.cs">
+      <DependentUpon>JiFen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KaoHe\KeYan_Evaluate.aspx.cs">
+      <DependentUpon>KeYan_Evaluate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KaoHe\KeYan_Evaluate.aspx.designer.cs">
+      <DependentUpon>KeYan_Evaluate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KaoHe\LunWen_Evaluate.aspx.cs">
+      <DependentUpon>LunWen_Evaluate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KaoHe\LunWen_Evaluate.aspx.designer.cs">
+      <DependentUpon>LunWen_Evaluate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KaoHe\menu.ascx.cs">
+      <DependentUpon>menu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KaoHe\menu.ascx.designer.cs">
+      <DependentUpon>menu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="KaoHe\Periodical_QiTa.aspx.cs">
+      <DependentUpon>Periodical_QiTa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KaoHe\Periodical_QiTa.aspx.designer.cs">
+      <DependentUpon>Periodical_QiTa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KaoHe\Periodical_SCI.aspx.cs">
+      <DependentUpon>Periodical_SCI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KaoHe\Periodical_SCI.aspx.designer.cs">
+      <DependentUpon>Periodical_SCI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KaoHe\RuanKe_Evaluate.aspx.cs">
+      <DependentUpon>RuanKe_Evaluate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KaoHe\RuanKe_Evaluate.aspx.designer.cs">
+      <DependentUpon>RuanKe_Evaluate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KaoHe\ShenBao_Evaluate.aspx.cs">
+      <DependentUpon>ShenBao_Evaluate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KaoHe\ShenBao_Evaluate.aspx.designer.cs">
+      <DependentUpon>ShenBao_Evaluate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KaoHe\WordsFunds.aspx.cs">
+      <DependentUpon>WordsFunds.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KaoHe\WordsFunds.aspx.designer.cs">
+      <DependentUpon>WordsFunds.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KeYuan.aspx.cs">
+      <DependentUpon>KeYuan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Kleft.aspx.cs">
+      <DependentUpon>Kleft.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="right.aspx.cs">
+      <DependentUpon>right.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SciResearch\ChuangZuo_Add.aspx.cs">
+      <DependentUpon>ChuangZuo_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SciResearch\ChuangZuo_Add.aspx.designer.cs">
+      <DependentUpon>ChuangZuo_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SciResearch\HuoJiang_Add.aspx.cs">
+      <DependentUpon>HuoJiang_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SciResearch\HuoJiang_Add.aspx.designer.cs">
+      <DependentUpon>HuoJiang_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SciResearch\KJJD_Add.aspx.cs">
+      <DependentUpon>KJJD_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SciResearch\KJJD_Add.aspx.designer.cs">
+      <DependentUpon>KJJD_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SciResearch\KJYY_Add.aspx.cs">
+      <DependentUpon>KJYY_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SciResearch\KJYY_Add.aspx.designer.cs">
+      <DependentUpon>KJYY_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SciResearch\LunWen_Add.aspx.cs">
+      <DependentUpon>LunWen_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SciResearch\LunWen_Add.aspx.designer.cs">
+      <DependentUpon>LunWen_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SciResearch\RuanKeXue_Add.aspx.cs">
+      <DependentUpon>RuanKeXue_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SciResearch\RuanKeXue_Add.aspx.designer.cs">
+      <DependentUpon>RuanKeXue_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SciResearch\SKJD_Add.aspx.cs">
+      <DependentUpon>SKJD_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SciResearch\SKJD_Add.aspx.designer.cs">
+      <DependentUpon>SKJD_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SciResearch\Thesis_Add.aspx.cs">
+      <DependentUpon>Thesis_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SciResearch\Thesis_Add.aspx.designer.cs">
+      <DependentUpon>Thesis_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SciResearch\ZhuanLi_Add.aspx.cs">
+      <DependentUpon>ZhuanLi_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SciResearch\ZhuanLi_Add.aspx.designer.cs">
+      <DependentUpon>ZhuanLi_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SciResearch\ZhuanLi_List.aspx.cs">
+      <DependentUpon>ZhuanLi_List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SciResearch\ZhuanLi_List.aspx.designer.cs">
+      <DependentUpon>ZhuanLi_List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SciResearch\ZhuanLi_Preview.aspx.cs">
+      <DependentUpon>ZhuanLi_Preview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SciResearch\ZhuanLi_Preview.aspx.designer.cs">
+      <DependentUpon>ZhuanLi_Preview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SciResearch\ZhuanLi_Update.aspx.cs">
+      <DependentUpon>ZhuanLi_Update.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SciResearch\ZhuanLi_Update.aspx.designer.cs">
+      <DependentUpon>ZhuanLi_Update.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SciResearch\ZhuZuo_Add.aspx.cs">
+      <DependentUpon>ZhuZuo_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SciResearch\ZhuZuo_Add.aspx.designer.cs">
+      <DependentUpon>ZhuZuo_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Secretary.aspx.cs">
+      <DependentUpon>Secretary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sleft.aspx.cs">
+      <DependentUpon>Sleft.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teacher.aspx.cs">
+      <DependentUpon>Teacher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tleft.aspx.cs">
+      <DependentUpon>Tleft.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="top.aspx.cs">
+      <DependentUpon>top.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="top.aspx.designer.cs">
+      <DependentUpon>top.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YongHuGuanLi\ChaKanXinXi.aspx.cs">
+      <DependentUpon>ChaKanXinXi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YongHuGuanLi\ChaKanXinXi.aspx.designer.cs">
+      <DependentUpon>ChaKanXinXi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YongHuGuanLi\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YongHuGuanLi\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YongHuGuanLi\WanShanXinXi.aspx.cs">
+      <DependentUpon>WanShanXinXi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YongHuGuanLi\WanShanXinXi.aspx.designer.cs">
+      <DependentUpon>WanShanXinXi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YongHuGuanLi\YongHuShanGai.aspx.cs">
+      <DependentUpon>YongHuShanGai.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YongHuGuanLi\YongHuShanGai.aspx.designer.cs">
+      <DependentUpon>YongHuShanGai.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{53FFA9F6-F1B5-46CA-982E-5F39148D4B2D}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{07C2A933-4E23-4A25-B49E-57C4BF08947E}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="KaoHe\JiFen.aspx" />
+    <Content Include="KaoHe\Periodical_QiTa.aspx" />
+    <Content Include="top.aspx" />
+    <Content Include="Web.sitemap" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\ZQUSciResearchDB.mdf">
+    </Content>
+    <Content Include="App_Data\ZQUSciResearchDB_log.ldf">
+      <DependentUpon>ZQUSciResearchDB.mdf</DependentUpon>
+    </Content>
+    <Content Include="images\073.gif" />
+    <Content Include="images\icon_alert.gif" />
+    <Content Include="images\menubg815.jpg" />
+    <Content Include="images\p_add.gif" />
+    <Content Include="images\submit.gif" />
+    <Content Include="js\jQuery.js" />
+    <Content Include="KaoHe\Periodical_SCI.aspx" />
+    <Content Include="KaoHe\Web.sitemap" />
+    <Content Include="KaoHe\WordsFunds.aspx" />
+    <Content Include="SciResearch\ChuangZuo_Add.aspx" />
+    <Content Include="SciResearch\HuoJiang_Add.aspx" />
+    <Content Include="SciResearch\KJJD_Add.aspx" />
+    <Content Include="SciResearch\KJYY_Add.aspx" />
+    <Content Include="SciResearch\LunWen_Add.aspx" />
+    <Content Include="SciResearch\RuanKeXue_Add.aspx" />
+    <Content Include="SciResearch\SKJD_Add.aspx" />
+    <Content Include="SciResearch\ZhuanLi_Add.aspx" />
+    <Content Include="SciResearch\ZhuanLi_List.aspx" />
+    <Content Include="SciResearch\ZhuanLi_Preview.aspx" />
+    <Content Include="SciResearch\ZhuanLi_Update.aspx" />
+    <Content Include="SciResearch\ZhuZuo_Add.aspx" />
+    <Content Include="YongHuGuanLi\YongHuShanGai.aspx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2712</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

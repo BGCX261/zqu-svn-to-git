@@ -1,0 +1,30 @@
+﻿/*  GridView 样式 */
+.gridviewStyle
+{
+	background-color:#DFDFDF;
+	color:#333333;
+	font-size:13px;
+	margin:2px;
+	width:95%;
+	text-align:center;
+}
+.gridviewStyle tr
+{
+	height:25px;
+}
+.gridviewStyle td
+{
+	border-top:solid 1px #FFFFFF;
+	border-top:solid 1px #FFFFFF;
+}
+.gridviewStyle .header
+{
+	background-color:#DFDFDF;
+	font-size: 13px;
+	color:#014F8A;
+}
+.gridviewStyle .row
+{
+	background-color:#FFFFFF;
+}
+

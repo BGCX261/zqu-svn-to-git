@@ -1,0 +1,31 @@
+﻿/* Tab 样式 */
+/* Default tab */
+.AjaxTabStrip .ajax__tab_tab
+{
+    font-size: 12px;
+    padding: 4px;
+    width: 105px;  /* Your proper width */
+    height:16px;   /* Your proper height */
+    background-color: #EAEAEA;
+}
+/* When mouse over */
+.AjaxTabStrip .ajax__tab_hover .ajax__tab_tab
+{
+    font-weight:bold;
+    text-decoration: underline;
+}
+/* Current selected tab */
+.AjaxTabStrip .ajax__tab_active .ajax__tab_tab
+{
+    background-color: #C2E2ED;
+    font-weight:bold;
+}
+/* TabPanel Content */
+.AjaxTabStrip .ajax__tab_body
+{
+    border: 1px solid #999999;
+    padding: 8px;
+    background-color: #ffffff;
+    margin-right: 9px; /* Your proper right-margin, make your header and the content have the same width */
+    margin-top:0px;
+}
